@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.scroll-to-top{
+  position: fixed;
+  bottom: 12px;
+  left:50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: darkblue;
+  color:#fff;
+  z-index: 1;
+  text-align:  center;
+}
+
+.scroll-to-top .icon{
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+
+@keyframes scroll-to-top{
+  from{
+      transform:translateY(2px)
+  }
+  to{
+      transform:translateY(-1px)
+  }
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +70,247 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* about Content.js className*/
+.menu-card{
+  width: 100%;
+  padding-top: 200px;
+  justify-content:center; 
+  align-items: center;
+}
+
+.text-center{
+  font-size: 15px;
+  align-items: center;
+  padding: 5px;
+  color:grey;
+}
+
+/* portfolio.js */
+.portfolio{
+  padding-top: 100px;
+}
+
+.center-content{
+  @apply flex flex-col justify-center items-center;
+}
+
+
+/* Hero.js - Go to see */
+.hero-btn-go-to {
+  @apply py-6 px-10 bg-yellow-500 rounded-full text-3xl 
+  hover:bg-yellow-300 transition duration-300 ease-in-out
+  flex items-center animate-bounce;
+}
+
+.hero-total {
+  @apply bg-white h-screen flex flex-col 
+  justify-center items-center;
+}
+
+.hero-front{
+  @apply lg:text-9xl md:text-7xl 
+  sm:text-5xl text-3xl  font-black mb-14;
+}
+
+/* portfolio.js git,view button */
+.pro-button{
+  text-align:center; 
+  color:#646569;
+  cursor:pointer;
+  text-decoration: underline; 
+}
+
+
+.pro-button2{
+  text-align:center; 
+  color:#646569;
+  cursor:pointer;
+  text-decoration: underline; 
+  padding:10px 20px;
+}
+
+
+.otp-field {
+  width: 38px;
+  margin-right: 10px;
+  padding-left: 12px;
+  height: 40px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+@keyframes scrollTop {
+  from {
+      transform: translateY(2px);
+  }
+  to {
+      transform: translateY(-1px);
+  }
+}
+
+.custom-youtube-player {
+  position: fixed;
+  width: 450px;
+  height: 300px;
+  bottom: 40px;
+  right: 40px;
+  background: #000;
+}
+.custom-youtube-player .close,
+.custom-youtube-player .handle {
+  position: absolute;
+  right: 0px;
+  top: -30px;
+  width: 32px;
+  height: 32px;
+  background: #000;
+  color: #fff;
+  opacity: 1;
+  padding: 3px;
+  cursor: pointer;
+}
+.custom-youtube-player .handle {
+  right: 32px;
+  padding-top: 8px;
+  cursor: move;
+}
+.fp-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f8f8f8ad;
+}
+.fp-container .fp-loader {
+  top: 30%;
+  left: 48%;
+  z-index: 1000;
+  position: absolute;
+}
+
+.battery-outer {
+  height: 210px;
+  width: 100px;
+  border: 2px solid #222;
+  padding: 4px;
+  border-radius: 7px;
+}
+.battery-inner {
+  width: 100%;
+  margin: 2px 0;
+  background-color: #01770a;
+}
+.battery-empty .battery-inner {
+  background: #8b0000;
+}
+.battery-outer::before {
+  content: "";
+  width: 24px;
+  position: absolute;
+  top: -8px;
+  height: 8px;
+  background: #222;
+  left: 49%;
+  border-radius: 4px 4px 3px 3px;
+}
+.battery-outer .battery-charging-indicator {
+  position: absolute;
+  top: 40%;
+  left: 49.2%;
+  color: #cbd71d;
+  font-size: 40px;
+  display: none;
+}
+.battery-charging .battery-outer .battery-charging-indicator {
+  display: block;
+  animation: fadeIn 0.8s infinite alternate;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.password-toogle-icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+
+.thumbnail-wrappper { 
+  width: 100%;
+  justify-self: center;
+  /* background-color: blueviolet; */
+} 
+img { 
+  max-width: 60%; 
+  height: auto; 
+}
+
+.content-css { 
+  width: 100%;
+  justify-content: center;
+  /* background-color: blueviolet; */
+} 
+
+.portpadding{
+  width:100%; 
+  height: 100px;
+  padding-top: 200px;
+}
+
+.porttitle{
+  width:100%;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500%;
+}
+
+.contactTop{
+  padding-top: 50px;
+}
+
+.contactTop2{
+  padding-top: 300px;
+}
+
+.contactContainer{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 500px;
+}
+
+.footer{
+  text-align:center; 
+  justify-content: center; 
+  align-items: center;  
+  color:rgb(49, 47, 47); 
+  font-size: 12px;
+}
+
+.about{
+  margin-bottom: 2px; 
+  text-align: left; 
+  color:#646569;
+}
+
