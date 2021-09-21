@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Lucy-portfolio-v2/static/css/main.cb0ad303.chunk.css",
+    "main.js": "/Lucy-portfolio-v2/static/js/main.facef93a.chunk.js",
+    "main.js.map": "/Lucy-portfolio-v2/static/js/main.facef93a.chunk.js.map",
+    "runtime-main.js": "/Lucy-portfolio-v2/static/js/runtime-main.c6303d1d.js",
+    "runtime-main.js.map": "/Lucy-portfolio-v2/static/js/runtime-main.c6303d1d.js.map",
+    "static/js/2.28597abf.chunk.js": "/Lucy-portfolio-v2/static/js/2.28597abf.chunk.js",
+    "static/js/2.28597abf.chunk.js.map": "/Lucy-portfolio-v2/static/js/2.28597abf.chunk.js.map",
+    "index.html": "/Lucy-portfolio-v2/index.html",
+    "static/css/main.cb0ad303.chunk.css.map": "/Lucy-portfolio-v2/static/css/main.cb0ad303.chunk.css.map",
+    "static/js/2.28597abf.chunk.js.LICENSE.txt": "/Lucy-portfolio-v2/static/js/2.28597abf.chunk.js.LICENSE.txt",
+    "static/media/adminapp.3f862090.jpg": "/Lucy-portfolio-v2/static/media/adminapp.3f862090.jpg",
+    "static/media/gallery.e4d0b059.jpg": "/Lucy-portfolio-v2/static/media/gallery.e4d0b059.jpg",
+    "static/media/portImg.e5ae6d96.jpg": "/Lucy-portfolio-v2/static/media/portImg.e5ae6d96.jpg",
+    "static/media/quiz-app.76cf9b7b.jpg": "/Lucy-portfolio-v2/static/media/quiz-app.76cf9b7b.jpg",
+    "static/media/star1.0d784398.jpg": "/Lucy-portfolio-v2/static/media/star1.0d784398.jpg",
+    "static/media/star2.7d140b74.jpg": "/Lucy-portfolio-v2/static/media/star2.7d140b74.jpg",
+    "static/media/turtles.9a192e37.jpg": "/Lucy-portfolio-v2/static/media/turtles.9a192e37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6303d1d.js",
+    "static/js/2.28597abf.chunk.js",
+    "static/css/main.cb0ad303.chunk.css",
+    "static/js/main.facef93a.chunk.js"
+  ]
+}
