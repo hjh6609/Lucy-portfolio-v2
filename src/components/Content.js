@@ -12,14 +12,16 @@ export default function Content() {
                     Hi! I'm Lucy 😊
                 </h2>
                 <p className="mb-2">
-                    I'm a Jr.front-end developer.
+                    I'm a Jr.Front-End Developer.
                 </p>
-                <span className="text-center"><u>My skills is</u> &nbsp;
+                <span className="text-center"><u>My skills are : </u> &nbsp;
                     <strong>
-                        javascript, React.js, php,html, css(tailwind CSS)<br />
-                        C#, .NET, Visual Studio <br />
-                        MS-SQL,MySQL <br />
-                        A little bit photoshop and Illustrator<br />
+                    My skills are : JavaScript, React.js , PHP,HTML,CSS, C#,.NET, Visual Studio, MySQL. <br/>
+                    I have a 2 years of Web Development experience, where I used C#, .NET,PHP, MySQL, <br/>
+                    I also created an Online-Shopping Mall using. <br/>
+                    .NET and C# and different Online-Sales Solution with the PHP Framework CodeIgniter. <br/>
+                    I also took part in creating Groupware via .NET and C#. I'm also interested in script languages like Python, PHP and JavaScript. <br/>
+                    Because of that interest,I've been studying JavaScript lately to help with Front-End Development.<br/>
                     </strong>
                     </span>
             </div>
